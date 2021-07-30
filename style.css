@@ -1,3 +1,27 @@
-body{
-    font-family: 'Poppins', sans-serif;
+.first{
+    background-color: black;
+}
+.kfc{
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+   
+}
+.hub{
+    color: black;
+    border: 5px solid orange;
+    border-radius: 10px;
+    background-color: orange;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 50px;
+    font-weight: 800;
+}
+.international{
+    color: lightgreen;
+}
+.nanan{
+    font-weight: 800;
+    font-size: 35px;
+    color: blue;
 }

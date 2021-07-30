@@ -1,16 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <title>My first Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
 </head>
+
 <body>
-    <h1>Welcome to</h1>
-    <h1>My Website</h1>
+    <section class="first">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><span class="kfc">KFC </span><span class="hub">Hub</span>
+                    <span class="international">International</span>
+
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="https://www.kfc.hu/
+                            "> Kfc Videos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="https://www.kfc.hu/
+                            ">Live Kfc</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="https://www.kfc.hu/
+                            ">Group Kfc</a>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <section>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="kfc1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="kfc2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="download.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="asif.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title nanan">Asif Kitchen</h5>
+                        <p class="card-text">My hand is so fucking ready that I want to make every single piece of hot
+                            wings.
+                            I
+                            see ever night when I get home I pour butter all over hot wings and continuously eat with my
+                            hole.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="raza.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title nanan">Raza Kitchen</h5>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="adeel.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title nanan">Adeel Kitchen</h5>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="Anik.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title nanan">Anik Csomagalo</h5>
+                            <p class="card-text">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="Ham.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title nanan">Hamza Csomagalo</h5>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="Hos.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title nanan">Hossain fries</h5>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="raj.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title nanan">Raj Csomagolo</h5>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+    </section>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
